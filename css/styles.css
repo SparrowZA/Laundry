@@ -1,0 +1,66 @@
+body{
+    color: #3AB5FD;
+}
+
+.loc_card{
+    height: 100%; 
+    border: 2px solid #3AB5FD;
+}
+
+.care-card{
+    height: 100%; 
+    border: 2px solid #3AB5FD;
+}
+
+.text-card{
+    margin-bottom: 0px;
+    margin-top: auto;
+}
+
+@media (max-width: 576px) { 
+    .loc_card{
+        font-size: 0.5rem;
+    }
+
+    h1{
+        font-size: medium;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .loc_card{
+        font-size: 0.5rem;
+    }
+
+    h1{
+        font-size: medium;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .loc_card{
+        font-size: 1rem;
+    }
+
+    h1{
+        font-size: medium;
+    }
+ }
+
+@media (max-width: 1199.98px) { 
+    .loc_card p{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1199.98px) { 
+    .loc_card p{
+        font-size: 1.2rem;
+    }
+
+    .care-card{
+        font-size: 1.6rem;
+    }
+}

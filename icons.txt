@@ -1,0 +1,34 @@
+Dry cleaning
+http://www.w3.org/2000/svg
+
+Collection
+http://www.w3.org/2000/svg
+
+Laundry
+http://www.w3.org/2000/svg
+
+Ironing
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="rgb(4, 48, 180)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" data-lov-id="src/pages/Index.tsx:39:12" data-lov-name="Zap" data-component-path="src/pages/Index.tsx" data-component-line="39" data-component-file="Index.tsx" data-component-name="Zap" data-component-content="%7B%7D" style="margin: 0px auto 15px; display: block;"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg>
+
+
+Obs Map
+https://share.google/O656aSwJBTN7efcS0
+Whatsapp
+https://wa.me/27652741233
+
+Glengarry Map
+https://share.google/XJql2jafyK27yHcDv
+Whatsapp
+https://wa.me/27745355327
+
+Tyger Falls
+https://share.google/BGOstToq8nSpczzAN
+Whatsapp
+https://wa.me/27796557777
+
+
+Email
+mailto:info@thatlaundryspot.co.za
+
+Call
+tel:0848543185
