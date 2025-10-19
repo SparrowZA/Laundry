@@ -1,66 +1,99 @@
-body{
-    color: #3AB5FD;
+body {
+    color: rgb(4, 48, 180);
+    /* max-width: 800px; */
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+
 }
 
-.loc_card{
-    height: 100%; 
-    border: 2px solid #3AB5FD;
+svg {
+    fill: rgb(4, 48, 180);
+    /* For shapes using fill */
+    stroke: rgb(4, 48, 180);
+    /* For shapes using stroke */
 }
 
-.care-card{
-    height: 100%; 
-    border: 2px solid #3AB5FD;
+.loc_card {
+    height: 100%;
+    border: 2px solid rgb(1, 193, 252);
+    border-radius: 10px;
 }
 
-.text-card{
+.care-card {
+    height: 100%;
+}
+
+hr {
+    border: 1px solid rgb(1, 193, 252);
+}
+
+.text-card {
     margin-bottom: 0px;
     margin-top: auto;
 }
 
-@media (max-width: 576px) { 
-    .loc_card{
+.button-prim {
+    background-color: rgb(1, 193, 252);
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.button-secon {
+    background-color: rgb(4, 48, 180);
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: fit-content;
+}
+
+@media (max-width: 576px) {
+    .loc_card {
         font-size: 0.5rem;
     }
 
-    h1{
+    h1 {
         font-size: medium;
     }
- }
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) { 
-    .loc_card{
+@media (max-width: 768px) {
+    .loc_card {
         font-size: 0.5rem;
     }
 
-    h1{
+    h1 {
         font-size: medium;
     }
- }
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (max-width: 992px) { 
-    .loc_card{
+@media (max-width: 992px) {
+    .loc_card {
         font-size: 1rem;
     }
 
-    h1{
+    h1 {
         font-size: medium;
     }
- }
+}
 
-@media (max-width: 1199.98px) { 
-    .loc_card p{
+@media (max-width: 1199.98px) {
+    .loc_card p {
         font-size: 1.2rem;
     }
 }
 
-@media (min-width: 1199.98px) { 
-    .loc_card p{
+@media (min-width: 1199.98px) {
+    .loc_card p {
         font-size: 1.2rem;
     }
 
-    .care-card{
+    .care-card {
         font-size: 1.6rem;
     }
 }
