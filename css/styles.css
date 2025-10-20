@@ -32,6 +32,10 @@ hr {
     margin-top: auto;
 }
 
+.card-head {
+    margin-bottom: 15px;
+}
+
 .button-prim {
     background-color: rgb(1, 193, 252);
     border-radius: 8px;
@@ -48,6 +52,17 @@ hr {
     text-align: center;
     cursor: pointer;
     width: fit-content;
+}
+
+.customer-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.customer-link {
+    font-size: 16px;
+    margin: 5px 0;
+    text-decoration: none;
 }
 
 @media (max-width: 576px) {
