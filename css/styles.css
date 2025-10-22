@@ -6,17 +6,24 @@ body {
 
 }
 
-svg {
-    fill: rgb(4, 48, 180);
-    /* For shapes using fill */
-    stroke: rgb(4, 48, 180);
-    /* For shapes using stroke */
+.services-row {
+    padding-top: 1rem;
+}
+
+.services-col {
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.services-col img {
+    max-width: 64px;
 }
 
 .loc_card {
     height: 100%;
     border: 2px solid rgb(1, 193, 252);
     border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
 
 .care-card {
@@ -59,6 +66,15 @@ hr {
     margin-bottom: 20px;
 }
 
+.how-to {
+    width: 90%;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid rgb(1, 193, 252);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1rem;
+}
+
 .customer-link {
     font-size: 16px;
     margin: 5px 0;
@@ -83,6 +99,14 @@ hr {
 
     h1 {
         font-size: medium;
+    }
+
+    .services-col img {
+        max-width: 32px;
+    }
+
+    .services-col h4 {
+        font-size: 18px;
     }
 }
 
