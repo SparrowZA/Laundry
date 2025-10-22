@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  web:
+    image: httpd:latest # Use a pre-built Apache image
+    ports:
+      - "80:80" # Map host port 80 to container port 80
+    volumes:
+      - ./html_files:/usr/local/apache2/htdocs/
